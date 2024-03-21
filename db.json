@@ -1,4 +1,4 @@
-[
+{
   projects: [
     {
       thumbnail: "https://i.postimg.cc/5yFCwx4t/Rectangle-22.jpg",
@@ -36,4 +36,4 @@
       status: ["Github"],
     }
   ]
-]
+}
