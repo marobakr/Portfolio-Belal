@@ -39,6 +39,70 @@
       "technologies": ["Vue", "TS", "Less"],
       "status": ["Github"],
       "type": "complete"
+    },
+    {
+      "thumbnail": null,
+      "name": "Bot boilerplate",
+      "description": "Start creating scalable discord.js bot with typescript in seconds",
+      "technologies": ["Discord.js", "TS", "JS"],
+      "status": ["Github"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "My blog",
+      "description": "Front-end of my future blog website written in vue",
+      "technologies": ["Vue", "CSS", "JS"],
+      "status": ["Github"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "Chess pro",
+      "description": "Figma landing page about service for viewing chess tournaments",
+      "technologies": ["Figma"],
+      "status": ["Figma"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "Crash protect website",
+      "description": "Figma template for website about anti-raid, anti-crash discord bot",
+      "technologies": ["Figma"],
+      "status": ["Figma"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "CSS expirements",
+      "description": "Collection of my different little projects in css",
+      "technologies": ["HTML", "CSS"],
+      "status": ["Live"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "Web Dev nvim config",
+      "description": "Config for neovim perfect for web developer",
+      "technologies": ["Lua", "NeoVim"],
+      "status": ["Github"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "Ooku",
+      "description": "Simple link shortener with auth",
+      "technologies": ["Python", "Quart", "HTML"],
+      "status": ["Live"],
+      "type": "small"
+    },
+    {
+      "thumbnail": null,
+      "name": "School website",
+      "description": "Figma template website for my school",
+      "technologies": ["Figma"],
+      "status": ["Figma"],
+      "type": "small"
     }
   ]
 }
