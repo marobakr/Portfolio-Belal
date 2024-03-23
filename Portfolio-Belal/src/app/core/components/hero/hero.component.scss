@@ -1,0 +1,92 @@
+@use "./../../../utilities/mixin" as *;
+@use "./../../../utilities/theme" as *;
+
+.home {
+  min-height: 100vh;
+  background-color: $bakground;
+
+  .home__heading {
+    h1 {
+      color: $primary;
+      font-weight: 600;
+    }
+    span {
+      color: white;
+    }
+    p {
+      color: $gray;
+    }
+    .home__bnt {
+      border: 1px solid $primary;
+    }
+  }
+}
+
+.home__main-img {
+  position: relative;
+  z-index: 1;
+}
+
+.home__dots-img {
+  top: 70%;
+  transform: translateY(-50%);
+  width: 84px;
+  height: 84px;
+  right: 50px;
+}
+
+.home__outline-img {
+  top: 45%;
+  transform: translateY(-50%);
+  left: 5%;
+  width: 155px;
+  height: 155px;
+  z-index: 0;
+}
+
+.home__frame {
+  bottom: -5px;
+  transform: translateY(-50%);
+  border: 1px solid $gray;
+  font-weight: 500;
+  color: $primary;
+  span {
+    color: white;
+    font-weight: 600;
+  }
+
+  .home__box-color {
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid $primary;
+    background-color: $primary;
+  }
+}
+
+.home__qote {
+  color: white;
+  padding: 32px;
+  border: 1px solid $gray;
+  font: {
+    size: 24px;
+    weight: 500;
+  }
+  &:before {
+    @include home__qoute;
+    left: 15px;
+  }
+
+  .home__qoute__author {
+    right: -1px;
+    bottom: -35px;
+    transform: translateY(50%);
+    border: 1px solid $gray;
+    padding: 16px;
+
+    &:before {
+      @include home__qoute;
+      right: 150px;
+    }
+  }
+}
