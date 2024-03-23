@@ -1,0 +1,80 @@
+.home {
+  min-height: 100vh;
+  background-color: #282c33;
+}
+.home .home__heading h1 {
+  color: #c778dd;
+  font-weight: 600;
+}
+.home .home__heading span {
+  color: white;
+}
+.home .home__heading p {
+  color: #abb2bf;
+}
+.home .home__heading .home__bnt {
+  border: 1px solid #c778dd;
+}
+.home .home__img figure {
+  background-image: url("../../../../assets/assets/logo-outline.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 155px;
+}
+.home .home__dots-img {
+  width: 84px;
+  height: 84px;
+  right: 50px;
+  top: 70%;
+  transform: translateY(-50%);
+}
+.home .home__frame {
+  border: 1px solid #abb2bf;
+  font-weight: 500;
+  color: #c778dd;
+}
+.home .home__frame span {
+  color: white;
+  font-weight: 600;
+}
+.home .home__frame .home__box-color {
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #c778dd;
+  border: 1px solid #c778dd;
+}
+.home .home__qote {
+  color: white;
+  padding: 32px;
+  border: 1px solid #abb2bf;
+  font-size: 24px;
+  font-weight: 500;
+}
+.home .home__qote:before {
+  content: "";
+  position: absolute;
+  background-image: url(../../../../assets/assets/quote.svg);
+  width: 25px;
+  height: 25px;
+  top: 0;
+  transform: translatey(-50%);
+  left: 15px;
+}
+.home .home__qote .home__qoute__author {
+  border: 1px solid #abb2bf;
+  padding: 16px;
+  right: -1px;
+  bottom: -35px;
+  transform: translateY(50%);
+}
+.home .home__qote .home__qoute__author:before {
+  content: "";
+  position: absolute;
+  background-image: url(../../../../assets/assets/quote.svg);
+  width: 25px;
+  height: 25px;
+  top: 0;
+  transform: translatey(-50%);
+  right: 15px;
+}/*# sourceMappingURL=hero.component.css.map */
